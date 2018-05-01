@@ -88,3 +88,17 @@ What is the result?
     B) Hello world
     C)  world
     D) An error
+
+Q8) Given
+  public void q14A(Integer x) {
+    x = x + 1;
+  }
+
+    Integer x = 99;
+    q14A(x);
+    System.out.println(x);
+
+What is the result?
+    A) 99
+    B) 100
+    C) An error
