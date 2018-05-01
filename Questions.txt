@@ -1,0 +1,51 @@
+Q1) Given
+
+String s1 = "Hello";
+String s2 = new String("Hello");
+sout("s1 == s2 " + (s1 == s2));
+sout("s1.equals(s2) " + s1.equals(s2));
+
+What happens:
+a) true, true
+b) true, false
+c) false, true
+d) false, false
+
+Q2) Given
+
+Object s1 = new StringBuilder("Hello");
+Object s2 = new String("Hello");
+sout("s1 == s2 " + (s1 == s2));
+sout("s1.equals(s2) " + s1.equals(s2));
+
+What happens:
+a) true, true
+b) true, false
+c) false, true
+d) false, false
+
+Q3) Given
+
+String s1 = "Hello";
+String s2 = "Hello";
+sout("s1 == s2 " + (s1 == s2));
+sout("s1.equals(s2) " + s1.equals(s2));
+
+What happens:
+a) true, true
+b) true, false
+c) false, true
+d) false, false
+
+Q4) Given
+
+Object s1 = new StringBuilder("Hello");
+Object s2 = new StringBuilder("Hello");
+sout("s1 == s2 " + (s1 == s2));
+sout("s1.equals(s2) " + s1.equals(s2));
+
+What happens:
+a) true, true
+b) true, false
+c) false, true
+d) false, false
