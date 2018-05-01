@@ -49,3 +49,42 @@ a) true, true
 b) true, false
 c) false, true
 d) false, false
+
+Q5) Given:
+
+    String s = "Hello";
+
+    How much storage is allocated for s?
+    A) None
+    B) 1 Machine Word
+    C) 6 bytes
+    D) 12 bytes
+
+Q6) Given
+
+  public void q11A(int x) {
+    x = x + 1;
+  }
+
+  int x = 99;
+  q11A(x);
+  System.out.println(x);
+
+  A) 99
+  B) 100
+  C) An error
+
+Q7) Given:
+  public void q12A(StringBuilder x) {
+    x.append(" world");
+  }
+
+  StringBuilder x = new StringBuilder("Hello");
+  q12A(x);
+  System.out.println(x);
+
+What is the result?
+    A) Hello
+    B) Hello world
+    C)  world
+    D) An error
