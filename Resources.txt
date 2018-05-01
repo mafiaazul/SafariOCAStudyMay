@@ -5,7 +5,7 @@ simon@dancingcloudservices.com
 Resources:
  - recordings of this class
 
- - github--all the code, diagrams, etc. https://github.com/SimonHGR/SafariOCAStudyApril
+ - github--all the code, diagrams, etc. https://github.com/SimonHGR/SafariOCAStudyMay
 
  - Safari (Pearson) OCA Study guide. 19 hours of video addressing all the objectives of the Associate exam
 https://www.safaribooksonline.com/library/view/oca-java-se/9780134427201/
@@ -18,6 +18,7 @@ https://www.safaribooksonline.com/library/view/oca-java-se/9780134427201/
 https://docs.oracle.com/javase/8/docs/
 https://docs.oracle.com/javase/8/docs/api
 https://docs.oracle.com/javase/tutorial/
+("Current docs" are Java 10. They're better indexed, with a search feature, but have new API elements that might mislead you--or you can check the "Since" tag attached to newer aspects of the APIs).
 
  - Commercial study material (to which I contributed sample questions) available from Kaplan (among others, Java Ranch maintains a list of resources, including sample question pools) http://www.transcender.com/
 
