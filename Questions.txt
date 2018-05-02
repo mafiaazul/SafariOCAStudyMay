@@ -49,3 +49,116 @@ a) true, true
 b) true, false
 c) false, true
 d) false, false
+
+Q5) Given:
+
+    String s = "Hello";
+
+    How much storage is allocated for s?
+    A) None
+    B) 1 Machine Word
+    C) 6 bytes
+    D) 12 bytes
+
+Q6) Given
+
+  public void q11A(int x) {
+    x = x + 1;
+  }
+
+  int x = 99;
+  q11A(x);
+  System.out.println(x);
+
+  A) 99
+  B) 100
+  C) An error
+
+Q7) Given:
+  public void q12A(StringBuilder x) {
+    x.append(" world");
+  }
+
+  StringBuilder x = new StringBuilder("Hello");
+  q12A(x);
+  System.out.println(x);
+
+What is the result?
+    A) Hello
+    B) Hello world
+    C)  world
+    D) An error
+
+Q8) Given
+  public void q14A(Integer x) {
+    x = x + 1;
+  }
+
+    Integer x = 99;
+    q14A(x);
+    System.out.println(x);
+
+What is the result?
+    A) 99
+    B) 100
+    C) An error
+
+Q9) Given
+
+  public void q13A(int[] x) {
+    x[0] = x[0] + 1;
+  }
+
+  int x[] = {99};
+  q13A(x);
+  System.out.println(x[0]);
+
+What is the result?
+    A) 99
+    B) 100
+    C) An error
+
+Q10) Given:
+
+  class X {
+    static int MAX_VAL = 100;
+    int value = 99;
+    public void setVal(int x) {
+      if (x <= MAX_VAL) value = x;
+    }
+  }
+  X a = new X();
+  X b = new X();
+  a.setVal(120);
+  System.out.print(a.value + ", ");
+  b.MAX_VAL = 150;
+  a.setVal(140);
+  System.out.println(a.value);
+
+What is the result?
+    A) 99, 99
+    B) 120, 140
+    C) 99, 140
+    D) Compilation failure
+    E) Exception at runtime
+
+Q11) Given
+  class Y {
+    static String sayHi() { return "Y-Hello"; }
+    String sayHi2() {  return "Y-Hello2"; }
+  }
+  class Z extends Y {
+    static String sayHi() { return "Z-Hello"; }
+    String sayHi2() { return "Z-Hello2"; }
+  }
+
+  Y y = new Z();
+  System.out.println(y.sayHi() + ", " + y.sayHi2());
+
+What is the result?
+    A) Y-Hello, Y-Hello2
+    B) Y-Hello, Z-Hello2
+    C) Z-Hello, Z-Hello2
+    D) Z-Hello, Y-Hello2
+    E) Compilation fails
+
